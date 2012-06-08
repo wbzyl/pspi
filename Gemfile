@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.5'
 
 gem 'sqlite3'
+gem 'pg', :group => :production
 gem "wirble", :group => :development
 gem "hirb", :group => :development
 
