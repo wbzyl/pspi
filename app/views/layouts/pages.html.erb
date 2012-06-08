@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <title><%= full_title(yield(:title)) %></title>
+    <title>Podyplomowe Studium Podstaw Informatyki, UG</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link href='http://fonts.googleapis.com/css?family=Share:700italic&subset=latin' rel='stylesheet' type='text/css'>
+
+    <%= stylesheet_link_tag    "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+
+        <div class="span4">
+          <%= render partial: "sidebar" %>
+        </div>
+
+        <div class="span8">
+
+          <div class="hero-unit">
+            <h1>Podyplomowe Studium Podstaw Informatyki</h1>
+            <p><address>Instytut Fizyki Doświadczalnej UG, tel. (58) 555 55 55, email</address>
+            <h3>Jedno dwa zdania o studiach w PSPI – uprawnienia do nauczania,
+             kto to organizuje, jaki jest cel... logo UG...</h3>
+          </div>
+
+          <%= yield %>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>

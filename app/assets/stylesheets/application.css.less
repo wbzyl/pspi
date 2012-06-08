@@ -1,0 +1,56 @@
+@import "twitter/bootstrap";
+@import "twitter/bootstrap/responsive";
+
+@baseFontSize: 18px;
+@baseLineHeight: 24px;
+
+body {
+  margin-top: 1em;
+}
+
+#logo {
+  text-align: center;
+  background-color: #ee913f;
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 50px 0;
+}
+
+// http://www.alistapart.com/articles/say-no-to-faux-bold/
+
+.hero-unit {
+  padding: 20px 30px;
+  h1 {
+    color: #195073;
+    font-family: 'Share', serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  h3 {
+    font-family: serif;
+    font-style: italic;
+  }
+}
+
+.well {
+  background-color: lighten(#F2E5BD, 5%);
+  h2 {
+    color: darken(#7F8C1F, 10%);
+  }
+}
+
+address {
+  font-size: 80%;
+  font-style: italic;
+  color: lighten(#195073, 5%)
+}
+
+li.active {
+  font-weight: bold;
+  color: #EE913F;
+}
+
+.sidebar-nav {
+  margin-bottom: 1em;
+}
