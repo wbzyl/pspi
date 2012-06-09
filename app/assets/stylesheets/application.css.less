@@ -74,6 +74,17 @@ body {
   }
 }
 
+.program .well {
+  background-color: lighten(#f2e5bd, 10%);
+}
+
+.table caption {
+  background-color: #f2e5bd;
+  text-align: center;
+  font-style: italic;
+  padding: 0.25em 4em;
+}
+
 address {
   font-size: 80%;
   font-style: italic;
@@ -83,4 +94,20 @@ address {
 li.active {
   font-weight: bold;
   color: #EE913F;
+}
+
+h1 {
+  font-style: italic;
+  margin-bottom: .5em;
+  color: #EE913F;
+}
+
+// Program
+
+#siatka-godzin tbody td { text-align: right }
+#siatka-godzin tbody td:first-child { text-align: left }
+#siatka-godzin tbody td:nth-child(2) { text-align: left; }
+#siatka-godzin tbody tr:last-child {
+  font-weight: bold;
+  background-color: lighten(#f2e5bd, 5%);
 }
