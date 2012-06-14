@@ -2,6 +2,10 @@
 
 *  [Kolory](http://kuler.adobe.com/#themeID/1931107)
 
+## TODO
+
+* Do tej pory ukończyło je XXXX absolwentów. Ilu?
+
 
 ## Git
 

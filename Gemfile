@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.5'
+gem 'rails', '3.2.6'
 
 gem 'sqlite3', :group => :development
 #gem 'pg', :group => :production
-gem "wirble", :group => :development
-gem "hirb", :group => :development
+#gem "wirble", :group => :development
+#gem "hirb", :group => :development
 
 group :development do
   gem "less-rails"
