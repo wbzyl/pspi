@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.6'
+gem 'rails', '3.2.8'
 
 gem 'sqlite3', :group => :development
 #gem 'pg', :group => :production
@@ -34,3 +34,5 @@ gem 'jquery-rails'
 
 # Use thin as the app server
 gem 'thin'
+
+gem 'rubygems-bundler'
