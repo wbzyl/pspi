@@ -12,6 +12,7 @@ Pspi::Application.routes.draw do
   match '/program', to: 'pages#program'
   match '/informacje', to: 'pages#informacje'
   match '/zapisy', to: 'pages#zapisy'
+  match '/materialy', to: 'pages#materialy'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
