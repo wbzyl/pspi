@@ -1,0 +1,38 @@
+Systemy Operacyjne - Przykładowe pytania zaliczeniowe
+
+1.  Instalacja i konfiguracja dysku twardego w komputerze PC.
+2.  Instalacja i konfiguracja systemu operacyjnego MSDOS.
+3.  Konfiguracja wiersza poleceń w systemach Windows.
+4.  Kodowanie znaków w systemach komputerowych.
+5.  SETUP komputera PC (obsługa, istotne ustawienia).
+6.  Elementy programowania wsadowego (przykłady DOS, Windows, UNIX).
+7.  Filtry i strumienie (przykłady, zastosowania).
+8.  Budowa, typy, diagnostyka, działanie i narzędzia diagnostyczne systemu plików.
+9.  Przygotowanie i zawartość dyskietki awaryjnej/startowej w różnych systemach operacyjnych.
+10. Fizyczna i logiczna budowa komputera PC.
+11. Struktury systemów operacyjnych (DOS,Windows,UNIX/Linux).
+12. Budowa, działanie, tryby pracy procesora IAPX86.
+13. Struktura i zarządzanie pamięciš operacyjnš komputera PC.
+14. Obsługa protokołu ftp (tryb tekstowy, graficzny).
+15. Obsługa edytora vi.
+16. Zmienne środowiskowe (DOS, UNIX, podobieństwa, różnice).
+17. Podstawowe polecenia systemowe, podobieństwa i różnice (DOS,UNIX).
+18. Domyślność wiersza poleceń.
+19. Uruchamienie różnych systemów operacyjnych na jednym komputerze (strategie, rozwiązania praktyczne).
+20. Instalacja systemu Linux.
+21. Poczta elektroniczna. Skrzynka pocztowa.
+22. Atrybuty plików w systemie UNIX (Linux). Ochrona zasobów w systemie.
+23. Procesy i zarządzanie nimi w systemach Windows i UNIX. 
+24. Najważniejsze polecenia dotyczšcew katalogów i plików w systemach Windows i UNIX.
+25. Podstawowe informacje o protkołach TCP/IP.
+26. Telnet. Logowanie zdalne.
+27. Kompresja i archiwizacja danych.
+28. Bootowanie, logowanie i zamykanie systemów operacyjnych.
+29. Elementy interface'u graficznego.
+30. Sposoby tworzenie nowych obiektów, folderów, skrótów w systemie Windows.
+31. Pasek zadań, menu start - ustawienia, konfiguracja.
+32. Panel sterowania - data/godzina, dodawanie i usuwanie programów.
+33. Panel sterowania, właściwości systemu, menadżer urządzeń.
+34. Różne sposoby uruchamiania zadań w systemach DOS, Windows, UNIX.
+35. Typy plików, akcje w systemie Windows.
+36. Praca z dyskietką, formatowanie i kopiowanie dyskietki.
