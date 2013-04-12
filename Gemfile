@@ -1,18 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '3.2.13'
 
 gem 'sqlite3', :group => :development
-#gem 'pg', :group => :production
-#gem "wirble", :group => :development
-#gem "hirb", :group => :development
 
 group :development do
   gem "less-rails"
-
   # silence assets pipeline log messages
   gem 'quiet_assets'
-
   # quickly see your routes under /rails/routes
   gem 'sextant'
 end
@@ -21,12 +16,9 @@ end
 # in production environments by default.
 group :assets do
   gem 'coffee-rails', '~> 3.2.1'
-
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
-
   gem 'uglifier', '>= 1.0.3'
-
   gem "less-rails-bootstrap", :group => :assets
 end
 
