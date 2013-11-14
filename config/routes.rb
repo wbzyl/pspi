@@ -8,7 +8,8 @@ Pspi::Application.routes.draw do
 
   root :to => 'pages#aktualnosci'
   match '/aktualnosci', to: 'pages#aktualnosci'
-  match '/terminarz', to: 'pages#terminarz'
+  match '/terminarz_04', to: 'pages#terminarz_04'
+  match '/terminarz_05', to: 'pages#terminarz_05'
   match '/program', to: 'pages#program'
   match '/informacje', to: 'pages#informacje'
   match '/zapisy', to: 'pages#zapisy'
