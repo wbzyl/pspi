@@ -5,7 +5,7 @@ gem 'rails', '3.2.14'
 gem 'sqlite3', :group => :development
 
 group :development do
-  gem "less-rails"
+  gem "less-rails", '= 2.3.3'
   # silence assets pipeline log messages
   gem 'quiet_assets'
   # quickly see your routes under /rails/routes
