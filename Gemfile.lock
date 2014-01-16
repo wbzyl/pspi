@@ -126,7 +126,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
-  less-rails
+  less-rails (= 2.3.3)
   less-rails-bootstrap
   quiet_assets
   rails (= 3.2.14)
