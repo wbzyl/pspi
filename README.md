@@ -2,16 +2,11 @@
 
 * [Kolorystyka](http://kuler.adobe.com/#themeID/1931107)
 
-## Git
 
-*.git/config*:
+## RVM
 
-    [remote "origin"]
-            fetch = +refs/heads/*:refs/remotes/origin/*
-            url = git@github.com:wbzyl/pspi.git
-    [branch "master"]
-            remote = origin
-            merge = refs/heads/master
-    [remote "heroku"]
-            url = git@heroku.com:sharp-fog-2619.git
-            fetch = +refs/heads/*:refs/remotes/heroku/*
+Create both *.ruby-version* and *.ruby-gemset*:
+
+    rvm --ruby-version use 2.1.0@pspi
+
+Zobacz [Typical RVM Project Workflow](https://rvm.io/workflow/projects)
