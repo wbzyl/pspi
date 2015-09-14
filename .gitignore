@@ -16,3 +16,6 @@
 /tmp
 /public/sylabusy
 /public/dokumenty
+
+.ruby-gemset
+pspi
