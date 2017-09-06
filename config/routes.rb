@@ -11,8 +11,11 @@ Pspi::Application.routes.draw do
 #  match '/terminarz_04', to: 'pages#terminarz_04'
 #  match '/terminarz_05', to: 'pages#terminarz_05'
 #  match '/terminarz_06', to: 'pages#terminarz_06'
+
   match '/terminarz_07', to: 'pages#terminarz_07'
   match '/terminarz_08', to: 'pages#terminarz_08'
+  match '/terminarz_09', to: 'pages#terminarz_09'
+
   match '/program', to: 'pages#program'
   match '/informacje', to: 'pages#informacje'
   match '/zapisy', to: 'pages#zapisy'
